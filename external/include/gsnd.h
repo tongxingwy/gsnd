@@ -3,4 +3,6 @@
 
 void prints(char* str);
 
+int playAudio(char* file);
+
 #endif

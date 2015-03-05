@@ -10,4 +10,5 @@ func main(){
   log.Println("--------------------")
   gsnd.Say("Hello world ....")
   log.Println("--------------------")
+  gsnd.PlayAudio("hello.mp3")
 }
