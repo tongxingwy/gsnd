@@ -11,8 +11,9 @@ int playAudio(char* file){
   [player play];
   [fileURL release];
   [soundFilePath release];
-  while(true){
+  sleep(10);
+  /*while(true){
     [[NSRunLoop currentRunLoop] runMode:NSDefaultRunLoopMode beforeDate:[NSDate distantFuture]];
-  }
+  }*/
   return 1;
 }
