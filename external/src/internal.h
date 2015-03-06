@@ -3,7 +3,7 @@
 #include "../include/gsnd.h"
 
 #if defined(_GSND_WIN32)
- #include "cocoa_platform.h"
+ #include "win32_platform.h"
 #endif
 
 #if defined(_GSND_COCOA)
